@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE11617A21C08E4E009B2F88 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11617921C08E4E009B2F88 /* TheaterCell.swift */; };
+		CE11617C21C0915D009B2F88 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11617B21C0915D009B2F88 /* TheaterListController.swift */; };
+		CE11618021C0A693009B2F88 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11617E21C0A607009B2F88 /* MapKit.framework */; };
+		CE11618221C0A74D009B2F88 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11618121C0A74D009B2F88 /* TheaterViewController.swift */; };
+		CE7FC80521B60DDF00B4A480 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FC80421B60DDF00B4A480 /* MovieCell.swift */; };
+		CE7FC80E21B6179B00B4A480 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7FC80D21B6179B00B4A480 /* darknight.jpg */; };
+		CE7FC81021B617B000B4A480 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7FC80F21B617B000B4A480 /* rain.jpg */; };
+		CE7FC81221B617B700B4A480 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7FC81121B617B700B4A480 /* secret.jpg */; };
+		CEADD21521BE2DB300B4E233 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADD21421BE2DB300B4E233 /* DetailViewController.swift */; };
+		CEAF1E2321BFA56B00AE87C6 /* Listbullets.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAF1E2221BFA56B00AE87C6 /* Listbullets.png */; };
+		CEAF1E2521BFA57900AE87C6 /* Trailer.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAF1E2421BFA57900AE87C6 /* Trailer.png */; };
 		CEDADB9021B4C71B0081EB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDADB8F21B4C71B0081EB51 /* AppDelegate.swift */; };
 		CEDADB9221B4C71B0081EB51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDADB9121B4C71B0081EB51 /* ViewController.swift */; };
 		CEDADB9521B4C71B0081EB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB9321B4C71B0081EB51 /* Main.storyboard */; };
 		CEDADB9721B4C71C0081EB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB9621B4C71C0081EB51 /* Assets.xcassets */; };
 		CEDADB9A21B4C71C0081EB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDADB9821B4C71C0081EB51 /* LaunchScreen.storyboard */; };
+		CEDADBA221B4CBE00081EB51 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDADBA121B4CBE00081EB51 /* ListViewController.swift */; };
+		CEDADBA421B4FB2E0081EB51 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDADBA321B4FB2E0081EB51 /* MovieVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE11617921C08E4E009B2F88 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
+		CE11617B21C0915D009B2F88 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
+		CE11617E21C0A607009B2F88 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE11618121C0A74D009B2F88 /* TheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
+		CE7FC80421B60DDF00B4A480 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		CE7FC80D21B6179B00B4A480 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		CE7FC80F21B617B000B4A480 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		CE7FC81121B617B700B4A480 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		CEADD21421BE2DB300B4E233 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEAF1E2221BFA56B00AE87C6 /* Listbullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Listbullets.png; sourceTree = "<group>"; };
+		CEAF1E2421BFA57900AE87C6 /* Trailer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer.png; sourceTree = "<group>"; };
 		CEDADB8C21B4C71B0081EB51 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDADB8F21B4C71B0081EB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDADB9121B4C71B0081EB51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,8 @@
 		CEDADB9621B4C71C0081EB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDADB9921B4C71C0081EB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDADB9B21B4C71D0081EB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDADBA121B4CBE00081EB51 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CEDADBA321B4FB2E0081EB51 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE11618021C0A693009B2F88 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE11617D21C0A606009B2F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE11617E21C0A607009B2F88 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7FC80621B616BD00B4A480 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF1E2421BFA57900AE87C6 /* Trailer.png */,
+				CEAF1E2221BFA56B00AE87C6 /* Listbullets.png */,
+				CE7FC80F21B617B000B4A480 /* rain.jpg */,
+				CE7FC80D21B6179B00B4A480 /* darknight.jpg */,
+				CE7FC81121B617B700B4A480 /* secret.jpg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		CEDADB8321B4C71B0081EB51 = {
 			isa = PBXGroup;
 			children = (
 				CEDADB8E21B4C71B0081EB51 /* MyMovieChart */,
 				CEDADB8D21B4C71B0081EB51 /* Products */,
+				CE11617D21C0A606009B2F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +102,17 @@
 		CEDADB8E21B4C71B0081EB51 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
+				CE7FC80621B616BD00B4A480 /* resources */,
 				CEDADB8F21B4C71B0081EB51 /* AppDelegate.swift */,
 				CEDADB9121B4C71B0081EB51 /* ViewController.swift */,
 				CEDADB9321B4C71B0081EB51 /* Main.storyboard */,
+				CE11618121C0A74D009B2F88 /* TheaterViewController.swift */,
+				CE11617B21C0915D009B2F88 /* TheaterListController.swift */,
+				CE11617921C08E4E009B2F88 /* TheaterCell.swift */,
+				CEADD21421BE2DB300B4E233 /* DetailViewController.swift */,
+				CE7FC80421B60DDF00B4A480 /* MovieCell.swift */,
+				CEDADBA321B4FB2E0081EB51 /* MovieVO.swift */,
+				CEDADBA121B4CBE00081EB51 /* ListViewController.swift */,
 				CEDADB9621B4C71C0081EB51 /* Assets.xcassets */,
 				CEDADB9821B4C71C0081EB51 /* LaunchScreen.storyboard */,
 				CEDADB9B21B4C71D0081EB51 /* Info.plist */,
@@ -96,6 +152,11 @@
 				TargetAttributes = {
 					CEDADB8B21B4C71B0081EB51 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAF1E2321BFA56B00AE87C6 /* Listbullets.png in Resources */,
+				CEAF1E2521BFA57900AE87C6 /* Trailer.png in Resources */,
+				CE7FC80E21B6179B00B4A480 /* darknight.jpg in Resources */,
+				CE7FC81221B617B700B4A480 /* secret.jpg in Resources */,
+				CE7FC81021B617B000B4A480 /* rain.jpg in Resources */,
 				CEDADB9A21B4C71C0081EB51 /* LaunchScreen.storyboard in Resources */,
 				CEDADB9721B4C71C0081EB51 /* Assets.xcassets in Resources */,
 				CEDADB9521B4C71B0081EB51 /* Main.storyboard in Resources */,
@@ -136,7 +202,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDADB9221B4C71B0081EB51 /* ViewController.swift in Sources */,
+				CE11617A21C08E4E009B2F88 /* TheaterCell.swift in Sources */,
+				CEADD21521BE2DB300B4E233 /* DetailViewController.swift in Sources */,
+				CE11617C21C0915D009B2F88 /* TheaterListController.swift in Sources */,
+				CEDADBA421B4FB2E0081EB51 /* MovieVO.swift in Sources */,
 				CEDADB9021B4C71B0081EB51 /* AppDelegate.swift in Sources */,
+				CE11618221C0A74D009B2F88 /* TheaterViewController.swift in Sources */,
+				CE7FC80521B60DDF00B4A480 /* MovieCell.swift in Sources */,
+				CEDADBA221B4CBE00081EB51 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.galaxia.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.galaxia.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
