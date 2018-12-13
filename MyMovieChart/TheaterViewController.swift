@@ -15,7 +15,6 @@ class TheaterViewController : UIViewController {
     @IBOutlet var map: MKMapView!
     
     override func viewDidLoad() {
-        // branch test
         self.navigationItem.title = self.param["상영관명"] as? String
         
         let lat = (param["위도"] as! NSString).doubleValue
